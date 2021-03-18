@@ -1,0 +1,7 @@
+package resume // import "github.com/skeptycal/resume"
+
+Package resume is a resume management tool
+
+const DefaultFileName = "resume.json"
+type Resume interface{ ... }
+    func New(filename string) (Resume, error)
